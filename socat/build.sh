@@ -5,9 +5,9 @@ set -o pipefail
 set -x
 
 SOCAT_VERSION=1.7.3.2
-NCURSES_VERSION=6.0
+NCURSES_VERSION=6.1
 READLINE_VERSION=7.0
-OPENSSL_VERSION=1.1.0f
+OPENSSL_VERSION=1.1.0g
 
 function build_ncurses() {
     cd /build
